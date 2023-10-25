@@ -11,8 +11,8 @@ def main() -> None:
     
         while True:
             try:
-            	sock.connect((host, port))
-            	while True:
+                sock.connect((host, port))
+                while True:
                     message = sys.argv[1]
                     data = str.encode(message)
                     sock.send(data)
