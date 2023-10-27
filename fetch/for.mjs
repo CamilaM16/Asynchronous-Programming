@@ -22,7 +22,7 @@ function listRiksMap(array) {
 }
 
 (async () => {
-  await controlTime("Map",() => get(PAGE, listRiksMap));
-  await controlTime("For",() => get(PAGE, listRiksFor));
-  await controlTime("ForEach",() => get(PAGE, listRiksForEach));
+  controlTime("For",() => get(PAGE, listRiksFor));
+  controlTime("ForEach",() => get(PAGE, listRiksForEach));
+  controlTime("Map",() => get(PAGE, listRiksMap));
 })();
