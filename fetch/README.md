@@ -8,3 +8,5 @@ How `for`, `forEach`, `map`, and `reduce` work in JavaScript, along with their m
 | map | Transformation | Iterates through an array, applying a function to each element and returning a new array with the results. | Returns a new array, leaving the original array unchanged. |
 | reduce | Aggregation | Iterates through an array, accumulating a single value based on the elements. | Reduces an array to a single value (e.g., sum, product) and returns it. |
 
+Video:
+[recording-2023-10-27-00-15-15.webm](https://github.com/CamilaM16/Asynchronous-Programming/assets/111623023/e576b714-1602-4d13-9f9f-500b3e1611dc)
